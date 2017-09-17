@@ -4,9 +4,11 @@ dependecy program for running code :
 gfortran --- converting binary data to cloud top temperature
 r with several dependency packages : ncdf4, raster, maps, and EBImage
 Grads  --- converting data to NetCDF
-Run the code in batch mode with positioning the working directory pwd of the downloadoto.sh
-and type ./downloadoto.sh
-it will run forever every 10 minutes
+
+Run the code in batch mode with positioning the working directory pwd of the downloadoto.sh.
+mkdir data_10m && mkdir OUTPUT
+and type ./downloadoto.sh   <<--------
+it will run forever every 10 minutes.
 
 
 
