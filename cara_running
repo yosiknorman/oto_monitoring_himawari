@@ -1,0 +1,15 @@
+
+skrip ini digunakan untuk TIR.01 panjang gelombang 10.4 micrometer
+tujuannya untuk monitoring perkembangan sistem konvektif kuat di wilayah monitor yang tidak tercakup dalam radar cuaca
+download file dengan skrip download_mtsat_10m.sh
+chmod +x download_mtsat_10m.sh
+./download_mtsat_10m.sh
+
+konversi ke tbb dengan format nc dengan skrip compile_all.sh
+chmod +x compile_all.sh
+./compile_all.sh
+
+atau keduanya hanya satu kali krja
+chmod +x downloadoto.sh
+./downloadoto.sh
+data nc terdownload dalam folder OUTPUT

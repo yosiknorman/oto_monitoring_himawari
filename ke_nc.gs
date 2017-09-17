@@ -1,0 +1,6 @@
+'open OUTPUT/201709171700.tir.01.ctl'
+'set lat -15 15'
+'set lon 90 150'
+'define suhu=tbb'
+'set sdfwrite OUTPUT/201709171700.tir.01.nc'
+'sdfwrite suhu'
